@@ -27,6 +27,42 @@ import {
 
 Then when you've built your code and are ready to test it, you need to remove the imports at the top of the compiled file.
 
+## Tips
+
+You can declare custom components with the `Component` type helper which automatically adds an optional children prop.
+
+```ts
+import type { Component, Font } from 'scriptwidget-typescript';
+
+interface CustomComponentProps {
+  text: string;
+  font: Font;
+}
+
+const CustomComponent: Component<CustomComponentProps> = ({
+  prop1,
+  font,
+  children,
+}) => {
+  return <text font={font}>{children}</text>;
+};
+```
+
+Other helper types are:
+
+- NumberString
+- Decimal
+
+And some useful types are
+
+- Font
+- Color
+- HashColor
+- Frame
+- GridProp
+
+There are more but you can look through those when importing using `ctrl + .` (in VSCode) or directly in the sourcefiles
+
 ## Project template recommendations
 
 tsconfig.json

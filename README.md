@@ -87,11 +87,11 @@ package.json
 
 ```json
 {
-  //...
+  "//": "...",
   "scripts": {
     "start": "tsc",
     "build": "tsc --build && prettier ./dist/**.* -w"
-  }
-  // ...
+  },
+  "//": "..."
 }
 ```

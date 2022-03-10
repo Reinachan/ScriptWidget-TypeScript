@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "outDir": "dist",
+    "watch": true
+  },
+  "include": ["src/**.*", "types/**.*"]
+}

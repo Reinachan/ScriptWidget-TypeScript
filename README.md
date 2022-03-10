@@ -1,6 +1,8 @@
 # TypeScript Typing for ScriptWidget
 
-Helps you develop widgets in ScriptWidget confidently knowing that your code will run ahead of time.
+Helps you develop widgets in [ScriptWidget](https://scriptwidget.app/) confidently knowing that your code will run ahead of time.
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Reinachan/scriptwidget-typescript?style=for-the-badge) [![npm](https://img.shields.io/npm/v/scriptwidget-typescript?style=for-the-badge)](https://www.npmjs.com/package/scriptwidget-typescript) ![NPM](https://img.shields.io/npm/l/scriptwidget-typescript?style=for-the-badge)
 
 ## Usage
 

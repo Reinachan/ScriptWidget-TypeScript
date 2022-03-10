@@ -1,6 +1,6 @@
 {
   "name": "scriptwidget-typescript",
-  "version": "3.12.1",
+  "version": "3.12.2",
   "description": "typeinfo for scriptwidget to simplify widget creation",
   "main": "index.d.ts",
   "scripts": {
